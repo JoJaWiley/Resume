@@ -10,28 +10,93 @@
     
         <!-- Container for mobile devices -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            .card {
+                background-color:silver;
+            }
+            
+            body {
+                background-color:slategray;
+            }
+        </style>
     </head>
     <body>
-        <h1>Joshua Wiley</h1>
-        <img src="profile.jpg" width="400" height="400" alt="Joshua Wiley's Head">
-        <a href='https://github.com/JoJaWiley'>GitHub</a>
-        <h2>Summary</h2>
-            <p>
-            Creative, analytical hacker with self-taught math skills at the graduate level. 
-            <br>Student in Application Development at Summit Academy. 
-            <br>Leadership, Service, and Continual Improvement.
-            </p>
-        <h2>Skills</h2>
-            <ul>
-           
-            </ul>
-        <h2>Employment</h2>
-            <ul>
-            
-            </ul>
-        <h2>Education</h2>
-            <ul>
-            <!-- include link to summit academy -->
-            </ul>
+        <div class="container-fluid overflow-hidden px-3">
+            <div class="row g-5">
+                <div class="col-sm-3">
+                    <div class="card text-center" style="width: 20rem;">
+                        <img class ="card-img-top" src="profile.jpg" width="300" height="300" alt="Joshua Wiley's Head">
+                        <div class="card-body">
+                            <h1 class="card-title">Joshua Wiley</h1>
+                            <a href='https://github.com/JoJaWiley' class="btn btn-primary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card text-center" style="width: 20rem;">
+                        <h2 class="card-title">Summary</h2>
+                        <div class="card-body">
+                            <p class="card-text">
+                            Creative developer with self-taught math skills at the graduate level. 
+                            <br>Student in Application Development at Summit Academy.
+                            <br>Java, JavaScript, Python, SQL.
+                            <br>Leadership, Service, and Continual Improvement.
+                            </p>
+                            <img class ="card-img-bottom" src="screen.png" width="350" height="164" alt="commutative diagram">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 20rem;">
+                        <h2 class="card-title text-center">Skills</h2>
+                        <div class="card-body text-left">
+                            <ul class="card-text">
+                                <li>Mathematics: linear algebra, real analysis, Lebesgue integration, Hilbert Spaces, abstract algebra, topology, calculus on manifolds, category theory</li>
+                                <li>Java, JavaScript, Python, Haskell, HTML, CSS, SQL</li>
+                                <li>Working in autonomous teams on continuous improvement projects</li>
+                            </ul>
+                         <img class ="card-img-bottom" src="diagram.jpg" width="350" height="116" alt="commutative diagram">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="row g-5">
+            <div class="col-sm-3">
+                <div class="card" style="width: 20rem;">
+                    <h2 class="card-title text-center">Employment</h2>
+                        <ul class="card-text text-left">
+                            <li>UPS
+                                <br>Smalls Sort Supervisor 
+                                <br>Nov 2021 to April 2022
+                            </li>
+                            <li>Two Bettys Green Cleaning
+                                <br>Commercial Cleaner 
+                                <br>July 2021 to Nov 2021
+                            </li>
+                            <li>Atlas Staffing 
+                                <br>Forklift Operator and Commercial Cleaner 
+                                <br>Nov 2020 to July 2021
+                            </li>
+                            
+                        </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 20rem; height: 18rem;">
+                    <h2 class="card-title text-center">Education</h2>
+                        <ul class="card-text text-left">
+                            <li>Champlin Park High School</li>
+                            <li>Summit Academy OIC</li>
+                        </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 20rem; height: 18rem;">
+                    <img class="card-img-top" src="bfs.png" height="200" alt="Java code">
+                </div>
+            </div>
+        </div>
+        </div>
     </body>
 </html>
